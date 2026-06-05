@@ -1,0 +1,12 @@
+[package]
+name = "flux-importer"
+version = "0.1.0"
+edition = "2021"
+description = "Flux bytecode → synthetic MIR bridge for the cuda-oxide compilation pipeline. Translates agent-native Flux bytecode into MIR compatible with the Rust-to-PTX compiler."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/flux-importer"
+keywords = ["cuda", "gpu", "compiler", "flux", "ptx", "ternary"]
+categories = ["compilers"]
+
+[dependencies]
+# flux-core = { path = "../flux-core" }  # TODO: publish flux-core first
